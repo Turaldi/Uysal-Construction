@@ -1,0 +1,85 @@
+.about .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+.about .row .image {
+    flex: 1 1 40rem;
+}
+
+.about .row .image img {
+    width: 40rem;
+    border-radius: .5rem;
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: var(--sub-color);
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color: #FD5552;
+}
+
+.about .row .content p {
+    line-height: 2;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--sub-color);
+}
+
+
+.about .row.reverse {
+    flex-flow: row-reverse;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* About Main Page Start */
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.55)),url(image/About\ Pagess.jpg);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 50rem;
+}
+
+.home .content h3 {
+    font-size: 6rem;
+    color: orange;
+}
+
+
+.home .content p {
+    font-size: 2.5rem;
+    color: black;
+    padding: .5rem 0;
+}
+
+
+.home .image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* opacity: 0.8; */
+}
+
+/* About Main Page End */
