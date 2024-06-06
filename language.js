@@ -39,6 +39,7 @@ function dilDegistir(dil) {
             'Our Services': 'Our Services',
             'Our Service': 'Our Service',
             'Our Projects': 'Our Projects',
+            '(Repairs)':'(Repairs)',
             'Building Construction': 'Building Construction',
             'Construction Consultant': 'Construction Consultant',
             'Repairs Renovation': 'Repairs Renovation',
@@ -108,6 +109,7 @@ function dilDegistir(dil) {
             'Building Construction': 'Bina İnşaatı',
             'Construction Consultant': 'İnşaat Danışmanlığı',
             'Repairs Renovation': 'Tamirat',
+            '(Repairs)':'(Tamirat)',
             'Landscape Construction': 'Peyzaj İnşaatı',
             'Bridges And Artistic Passages Construction': 'Köprü Ve Sanatsal Geçit İnşaatı',
             'Canal and Sewer Construction': 'Kanal ve Kanalizasyon İnşaatı',
@@ -172,6 +174,7 @@ function dilDegistir(dil) {
             'Our Services': 'Наши услуги',
             'Our Service': 'Наши услуги',
             'Our Projects': 'Наши проекты',
+            '(Repairs)':'(Ремонт)'
             'Building Construction': 'Строительство зданий',
             'Construction Consultant': 'Строительное консультирование',
             'Repairs Renovation': 'Ремонт',
